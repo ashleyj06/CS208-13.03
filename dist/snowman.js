@@ -1,6 +1,6 @@
 // Size of a single snowflake
 const flakeSize = 8;
-console.log("snowman.js loaded");
+
 window.addEventListener("DOMContentLoaded", function() {
    let canvas = document.querySelector("canvas");
 
@@ -37,7 +37,7 @@ function drawSnowText(canvas) {
    context.textBaseline = "top";
    context.fillStyle = "blue";
 
-   context.filText("SNOW", canvas.width / 2, 10);
+   context.fillText("SNOW", canvas.width / 2, 10);
 
 }
 
